@@ -157,12 +157,14 @@
 | VLAAD | 2024 | 10,379 | VQA, reasoning |
 
 ## Simulators
-| Simulator  | Simulator  |
-|-------------|-------------|
-| **CARLA**<br>https://carla.org/ | **MetaDrive**<br>https://github.com/metadriverse/metadrive |
-| **AirSim**<br>https://github.com/microsoft/AirSim | **Colosseum**<br>https://github.com/CodexLabsLLC/Colosseum |
-| **AWSIM**<br>https://github.com/tier4/AWSIM | **SUMO**<br>https://eclipse.dev/sumo/ |
-| **Gazebo**<br>https://gazebosim.org/ | **NVIDIA DRIVE Sim**<br>https://www.nvidia.com/en-us/self-driving-cars/simulation/ |
-| **Siemens PreScan**<br>https://plm.sw.siemens.com/en-US/simcenter/autonomous-vehicle-solutions/prescan/ | **VTD(Hexagon)**<br>https://hexagon.com/products/virtual-test-drive |
+| Simulator | Simulator |
+|-----------|-----------|
+| **CARLA** <br> https://carla.org/ | **MetaDrive** <br> https://github.com/metadriverse/metadrive |
+| **AirSim** <br> https://github.com/microsoft/AirSim | **Colosseum** <br> https://github.com/CodexLabsLLC/Colosseum |
+| **AWSIM** <br> https://github.com/tier4/AWSIM | **SUMO** <br> https://eclipse.dev/sumo/ |
+| **Gazebo** <br> https://gazebosim.org/ | **NVIDIA DRIVE Sim** <br> https://www.nvidia.com/en-us/self-driving-cars/simulation/ |
+| **Siemens PreScan** <br> https://plm.sw.siemens.com/en-US/simcenter/autonomous-vehicle-solutions/prescan/ | **VTD (Hexagon)** <br> https://hexagon.com/products/virtual-test-drive |
+| **Apollo Simulation Platform** <br> https://developer.apollo.auto/platform/simulation_cn.html | **Highway-env** <br> https://github.com/Farama-Foundation/HighwayEnv |
+
 
 
