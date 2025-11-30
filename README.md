@@ -1,5 +1,8 @@
 # PTM4AD
 
+# Paper Architecture
+![Driving pipeline](Pics/ALL.jpg)
+
 # Datasets
 ### Perception Datasets
 | Dataset        | Year | Size    | 2D Det | 3D Det | 2D Seg | 3D Seg | Tracking | Lane Det |
