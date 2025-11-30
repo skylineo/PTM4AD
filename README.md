@@ -157,11 +157,12 @@
 | VLAAD | 2024 | 10,379 | VQA, reasoning |
 
 ## Simulators
-| Simulator | Simulator |
-|----------|-----------|
-| ![CARLA](Pics/CARLA.jpg) <br> **CARLA** <br> https://carla.org/ | ![MetaDrive](path/metadrive.png) <br> **MetaDrive** <br> https://github.com/metadriverse/metadrive |
-| ![AirSim](path/airsim.png) <br> **AirSim** <br> https://github.com/microsoft/AirSim | ![Colosseum](path/colosseum.png) <br> **Colosseum** <br> https://github.com/CodexLabsLLC/Colosseum |
-| ![AWSIM](path/awsim.png) <br> **AWSIM** <br> https://github.com/tier4/AWSIM | ![SUMO](path/sumo.png) <br> **SUMO** <br> https://eclipse.dev/sumo/ |
-| ![Gazebo](path/gazebo.png) <br> **Gazebo** <br> https://gazebosim.org/ | ![NVIDIA Drive Sim](path/nvidia.png) <br> **NVIDIA DRIVE Sim** <br> https://www.nvidia.com/en-us/self-driving-cars/simulation/ |
-| ![Siemens](path/siemens.png) <br> **Siemens PreScan** <br> https://plm.sw.siemens.com/en-US/simcenter/autonomous-vehicle-solutions/prescan/ | ![Hexagon](path/hexagon.png) <br> **VTD (Hexagon)** <br> https://hexagon.com/products/virtual-test-drive |
+| Simulator  | Simulator  |
+|-------------|-------------|
+| **CARLA**<br>https://carla.org/ | **MetaDrive**<br>https://github.com/metadriverse/metadrive |
+| **AirSim**<br>https://github.com/microsoft/AirSim | **Colosseum**<br>https://github.com/CodexLabsLLC/Colosseum |
+| **AWSIM**<br>https://github.com/tier4/AWSIM | **SUMO**<br>https://eclipse.dev/sumo/ |
+| **Gazebo**<br>https://gazebosim.org/ | **NVIDIA DRIVE Sim**<br>https://www.nvidia.com/en-us/self-driving-cars/simulation/ |
+| **Siemens PreScan**<br>https://plm.sw.siemens.com/en-US/simcenter/autonomous-vehicle-solutions/prescan/ | **VTD(Hexagon)**<br>https://hexagon.com/products/virtual-test-drive |
+
 
