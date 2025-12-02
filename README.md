@@ -169,7 +169,6 @@
 ## Open Source
 | Name | Link | Code |
 |------|------|------|
-| Fine-grained segmentation networks: Self-supervised segmentation for improved long-term visual localization | [link](https://openaccess.thecvf.com/content_ICCV_2019/papers/Larsson_Fine-Grained_Segmentation_Networks_Self-Supervised_Segmentation_for_Improved_Long-Term_Visual_Localization_ICCV_2019_paper.pdf) | [code](https://github.com/maunzzz/fine-grained-segmentation-networks) |
 | Semantics-aware visual localization under challenging perceptual conditions | [link](http://ais.informatik.uni-freiburg.de/publications/papers/naseer17icra.pdf) | none |
 | Semantic pose verification for outdoor visual localization with self-supervised contrastive learning | [link](https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Orhan_Semantic_Pose_Verification_for_Outdoor_Visual_Localization_With_Self-Supervised_Contrastive_CVPRW_2022_paper.pdf) | none |
 | Accurate visual localization for automotive applications | [link](https://openaccess.thecvf.com/content_CVPRW_2019/papers/WAD/Brosh_Accurate_Visual_Localization_for_Automotive_Applications_CVPRW_2019_paper.pdf) | [code](https://github.com/getnexar/Nexar-Visual-Localization) |
