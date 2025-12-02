@@ -211,24 +211,17 @@
 | Learning correspondence from the cycle-consistency of time | [link](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Correspondence_From_the_Cycle-Consistency_of_Time_CVPR_2019_paper.pdf) | [code](https://github.com/xiaolonw/TimeCycle) |
 | Self-supervised representation learning from temporal ordering of automated driving sequences | [link](https://arxiv.org/pdf/2302.09043) | none |
 | Traj-mae: Masked autoencoders for trajectory prediction | [link](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Traj-MAE_Masked_Autoencoders_for_Trajectory_Prediction_ICCV_2023_paper.pdf) | [code](https://jiazewang.com/projects/trajmae.html) |
-| Sept: Towards efficient scene representation learning for motion prediction | [link](https://arxiv.org/pdf/2309.15289) | [code](https://github.com/wjh720/SEPT) |
+| Sept: Towards efficient scene representation learning for motion prediction | [link](https://arxiv.org/pdf/2309.15289) | none |
 | Social-ssl: Self-supervised cross-sequence representation learning based on transformers for multi-agent trajectory prediction | [link](https://basiclab.lab.nycu.edu.tw/assets/Social-SSL.pdf) | [code](https://github.com/Sigta678/Social-SSL) |
 | Precln: Pretrained based contrastive learning network for vehicle trajectory prediction | [link](https://link.springer.com/article/10.1007/s11280-022-01121-3) | none |
 | Rmp: A random mask pretrain framework for motion prediction | [link](https://arxiv.org/pdf/2309.08989) | [code](https://github.com/KTH-RPL/RMP) |
-| Forecast-mae: Self-supervised pretraining for motion forecasting with masked autoencoders | [link](https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Forecast-MAE_Self-supervised_Pre-training_for_Motion_Forecasting_with_Masked_Autoencoders_ICCV_2023_paper.pdf) | [code](https://github.com/KTH-RPL/RMP) |
 | Smart pretrain: Model-agnostic and dataset-agnostic representation learning for motion prediction | [link](https://arxiv.org/pdf/2410.08669) | [code](https://github.com/youngzhou1999/SmartPretrain) |
 | Behavior-pred: A semantic-enhanced trajectory pre-training framework for motion forecasting | [link](https://www.sciencedirect.com/science/article/pii/S1566253525001599?ref=pdf_download&fr=RR-2&rr=9a711a9ea93c043e) | none |
-| Traj-mae: Masked autoencoders for trajectory prediction | [link](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Traj-MAE_Masked_Autoencoders_for_Trajectory_Prediction_ICCV_2023_paper.pdf) | [code](https://jiazewang.com/projects/trajmae.html) |
-| Sept: Towards efficient scene representation learning for motion prediction | [link](https://arxiv.org/pdf/2309.15289) | [code](https://github.com/wjh720/SEPT) |
-| Pretram: Self-supervised pre-training via connecting trajectory and map | [link](https://arxiv.org/pdf/2204.10435) | [code](https://github.com/ChenFengXu/PreTraM) |
 | Redmotion: Motion prediction via redundancy reduction | [link](https://arxiv.org/pdf/2306.10840) | [code](https://github.com/kit-mrt/future-motion) |
 | Exploiting map information for self-supervised learning in motion forecasting | [link](https://arxiv.org/pdf/2210.04672) | none |
 | Forecast-mae: Self-supervised pretraining for motion forecasting with masked autoencoders | [link](https://openaccess.thecvf.com/content/ICCV2023/papers/Cheng_Forecast-MAE_Self-supervised_Pre-training_for_Motion_Forecasting_with_Masked_Autoencoders_ICCV_2023_paper.pdf) | [code](https://github.com/jchengai/forecast-mae) |
 | Multi-agent driving behavior prediction across different scenarios with self-supervised domain knowledge | [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9564510) | none |
 | Social-ssl: Self-supervised cross-sequence representation learning based on transformers for multi-agent trajectory prediction | [link](https://basiclab.lab.nycu.edu.tw/assets/Social-SSL.pdf) | [code](https://github.com/Sigta678/Social-SSL) |
-| Traj-mae: Masked autoencoders for trajectory prediction | [link](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Traj-MAE_Masked_Autoencoders_for_Trajectory_Prediction_ICCV_2023_paper.pdf) | [code](https://jiazewang.com/projects/trajmae.html) |
-| Pretram: Self-supervised pre-training via connecting trajectory and map | [link](https://arxiv.org/pdf/2204.10435) | [code](https://github.com/ChenFengXu/PreTraM) |
-| Sept: Towards efficient scene representation learning for motion prediction | [link](https://arxiv.org/pdf/2309.15289) | [code](https://github.com/wjh720/SEPT) |
 | Can you text what is happening? integrating pre-trained language encoders into trajectory prediction models for autonomous driving | [link](https://arxiv.org/pdf/2309.05282) | none |
 | Large language models powered context-aware motion prediction in autonomous driving | [link](https://arxiv.org/pdf/2403.11057) | none |
 | Lg-traj: Llm guided pedestrian trajectory prediction | [link](https://arxiv.org/pdf/2403.11057) | none |
