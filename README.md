@@ -19,7 +19,7 @@
 | Virtual KITTI | 2016 | 21,260  | ✓      |        | ✓      |        |          |          |
 | VIPER         | 2017 | 254,064 | ✓      | ✓      | ✓      | ✓      | ✓        |          |
 | GTA5          | 2016 | 24,966  |        |        | ✓      |        |          |          |
-| Argoverse 2   | 2023 | 6M      | ✓      | ✓      |        |        | ✓        |          |
+| Argoverse 2   | 2021 | 6M      | ✓      | ✓      |        |        | ✓        |          |
 | Lane Det      | 2017 | 133,235 |        |        |        |        |          | ✓        |
 | SHIFT         | 2022 | 2.5M    | ✓      | ✓      | ✓      |        | ✓        |          |
 | CityPersons   | 2017 | 25K     | ✓      |        | ✓      |        |          |          |
@@ -74,7 +74,7 @@
 | PIE | 2019 | 293K frames | pedestrian intention |
 | USyd | 2019 | 24K trajectories | driver intention |
 | Argoverse 1 | 2019 | 300K trajectories | trajectory prediction |
-| Argoverse 2 | 2022 | 250K trajectories | trajectory prediction |
+| Argoverse 2 | 2021 | 250K trajectories | trajectory prediction |
 | Drive&Act | 2019 | 9.6M images | driver behavior recognition |
 | DbNet | 2019 | 100 km | driver behavior recognition |
 | D²CAV | 2020 | - | behavioral strategy |
