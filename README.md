@@ -73,7 +73,8 @@
 | highD | 2018 | 45K km | trajectory prediction |
 | PIE | 2019 | 293K frames | pedestrian intention |
 | USyd | 2019 | 24K trajectories | driver intention |
-| Argoverse | 2019 | 300K trajectories | trajectory prediction |
+| Argoverse 1 | 2019 | 300K trajectories | trajectory prediction |
+| Argoverse 2 | 2022 | 250K trajectories | trajectory prediction |
 | Drive&Act | 2019 | 9.6M images | driver behavior recognition |
 | DbNet | 2019 | 100 km | driver behavior recognition |
 | D²CAV | 2020 | - | behavioral strategy |
@@ -91,42 +92,45 @@
 
 ### End-to-End Autonomous Driving Datasets
 
-| Dataset | Year | Sensors | Content | Weather | Size | Location |
-|---------|------|---------|----------|----------|--------|-----------|
-| Udacity | 2016 | Camera, LiDAR, GNSS, Steering, Speed | Obstacles, Traffic, Roads | Sunny | 5h | Mountain View |
-| Drive360 | 2019 | Camera, GNSS, Steering, Speed, Route | Obstacles, Traffic | Sunny, Rain | 55h | Switzerland |
-| Comma.ai 2016 | 2016 | Camera, GNSS, Steering, Speed | - | Sunny | 7h15m | SF, USA |
-| Comma.ai 2019 | 2019 | Camera, GNSS, Steering, Speed | - | Sunny | 30h | San Jose |
-| BDD100 | 2018 | Camera, GNSS | Obstacles, Traffic | Sunny, Rain, Snow | 1100h | USA |
-| Oxford RobotCar | 2019 | Camera, LiDAR, GNSS | Obstacles, Traffic | Sunny, Rain, Snow | 214h | Oxford |
-| HDD | 2018 | Camera, LiDAR, GNSS, Steering, Speed, Nav | Obstacles | - | 104h | SF, USA |
-| Brain4Cars | 2016 | Camera, GNSS, Steering, Speed | Obstacles | - | 1180 miles | USA |
-| Li-Vi | 2018 | Camera, LiDAR, GNSS, Steering, Speed | - | - | 10h | China |
-| DDD17 | 2017 | Event Cam, GNSS, Steering | Obstacles | Sunny, Rain, Snow | 12h | EU |
-| A2D2 | 2020 | Camera, LiDAR, GNSS, Steering, Speed | Obstacles | Sunny, Rain | 390K frames | Germany |
-| nuScenes | 2019 | Camera, LiDAR, GNSS | Obstacles | Sunny, Rain | 5.5h | Boston, Singapore |
-| Waymo | 2019 | Camera, LiDAR, GNSS | Obstacles | Sunny, Rain | 5.5h | California |
-| H3D | 2019 | Camera, LiDAR, GNSS, Steering, Speed | - | Sunny | N/A | Japan |
-| HAD | 2019 | Camera, GNSS, Steering, Speed, Nav | Traffic | Sunny | 30h | SF |
-| BIT | 2015 | Camera | Obstacles | Sunny | 9850 frames | Beijing |
-| UA-DETRAC | 2015 | Camera | Obstacles | Sunny | 140K frames | Beijing, Tianjin |
-| DFG | 2019 | Camera | Traffic | Sunny, Snow | 7K+8K | Slovenia |
-| Bosch | 2017 | Camera | Traffic | Sunny | 8K | Germany |
-| Tencent 100K | 2016 | Camera | Traffic | Sunny | 30K | China |
-| LISA | 2012 | Camera | Traffic | Sunny | 20K | California |
-| STSD | 2011 | Camera | Traffic | Sunny | 2503 | Sweden |
-| GTSRB | 2013 | Camera | Traffic | Sunny, Snow | 50K | Germany |
-| KUL | 2013 | Camera | Traffic | Sunny | 16K | Belgium |
-| Caltech | 2009 | Camera | Obstacles | Sunny | 10h | California |
-| CamVid | 2009 | Camera | Obstacles, Roads | Sunny | 22m | Cambridge |
-| Ford | 2018 | Camera, LiDAR | Obstacles | Sunny | 66km | Michigan |
-| KITTI | 2013 | Cam, LiDAR, GNSS | Obstacles | Sunny | 43K | Germany |
-| CityScapes | 2016 | Camera, GNSS | Obstacles | Sunny | 25K | EU |
-| Mapillary | 2017 | Camera | Obstacles | All | 25K | Germany |
-| ApolloScape | 2018 | Cam, LiDAR | Obstacles | All | 147K | China |
-| VERI-Wild | 2019 | Camera | Obstacles | All | 125–280h | China |
-| D2-City | 2019 | Camera | Obstacles, Roads | All | 10K videos | China |
-| DriveSeg | 2020 | Camera | Obstacles | Sunny | 500m | USA |
+### End-to-End Autonomous Driving Datasets
+
+| Dataset | Year | Sensors | Content | Size |
+|---------|------|---------|----------|--------|
+| Bench2Drive | 2024 | Camera, LiDAR, Radar, GNSS, IMU | Interactive Scenarios | 2M frames |
+| Udacity | 2016 | Camera, LiDAR, GNSS, Steering, Speed | Obstacles, Traffic, Roads | 5h |
+| Drive360 | 2019 | Camera, GNSS, Steering, Speed, Route | Obstacles, Traffic | 55h |
+| Comma.ai 2016 | 2016 | Camera, GNSS, Steering, Speed | - | 7h15m |
+| Comma.ai 2019 | 2019 | Camera, GNSS, Steering, Speed | - | 30h |
+| BDD100 | 2018 | Camera, GNSS | Obstacles, Traffic | 1100h |
+| Oxford RobotCar | 2019 | Camera, LiDAR, GNSS | Obstacles, Traffic | 214h |
+| HDD | 2018 | Camera, LiDAR, GNSS, Steering, Speed, Nav | Obstacles | 104h |
+| Brain4Cars | 2016 | Camera, GNSS, Steering, Speed | Obstacles | 1180 miles |
+| Li-Vi | 2018 | Camera, LiDAR, GNSS, Steering, Speed | - | 10h |
+| DDD17 | 2017 | Event Cam, GNSS, Steering | Obstacles | 12h |
+| A2D2 | 2020 | Camera, LiDAR, GNSS, Steering, Speed | Obstacles | 390K frames |
+| nuScenes | 2019 | Camera, LiDAR, GNSS | Obstacles | 5.5h |
+| Waymo | 2019 | Camera, LiDAR, GNSS | Obstacles | 5.5h |
+| H3D | 2019 | Camera, LiDAR, GNSS, Steering, Speed | - | N/A |
+| HAD | 2019 | Camera, GNSS, Steering, Speed, Nav | Traffic | 30h |
+| BIT | 2015 | Camera | Obstacles | 9850 frames |
+| UA-DETRAC | 2015 | Camera | Obstacles | 140K frames |
+| DFG | 2019 | Camera | Traffic | 7K+8K |
+| Bosch | 2017 | Camera | Traffic | 8K |
+| Tencent 100K | 2016 | Camera | Traffic | 30K |
+| LISA | 2012 | Camera | Traffic | 20K |
+| STSD | 2011 | Camera | Traffic | 2503 |
+| GTSRB | 2013 | Camera | Traffic | 50K |
+| KUL | 2013 | Camera | Traffic | 16K |
+| Caltech | 2009 | Camera | Obstacles | 10h |
+| CamVid | 2009 | Camera | Obstacles, Roads | 22m |
+| Ford | 2018 | Camera, LiDAR | Obstacles | 66km |
+| KITTI | 2013 | Cam, LiDAR, GNSS | Obstacles | 43K |
+| CityScapes | 2016 | Camera, GNSS | Obstacles | 25K |
+| Mapillary | 2017 | Camera | Obstacles | 25K |
+| ApolloScape | 2018 | Cam, LiDAR | Obstacles | 147K |
+| VERI-Wild | 2019 | Camera | Obstacles | 125–280h |
+| D2-City | 2019 | Camera | Obstacles, Roads | 10K videos |
+| DriveSeg | 2020 | Camera | Obstacles | 500m |
 
 ### Emerging: Language-Based Autonomous Driving Datasets
 
