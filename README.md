@@ -92,8 +92,6 @@
 
 ### End-to-End Autonomous Driving Datasets
 
-### End-to-End Autonomous Driving Datasets
-
 | Dataset | Year | Sensors | Content | Size |
 |---------|------|---------|----------|--------|
 | Bench2Drive | 2024 | Camera, LiDAR, Radar, GNSS, IMU | Interactive Scenarios | 2M frames |
