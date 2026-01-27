@@ -1,12 +1,49 @@
-# PTM4AD
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-red)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# Paper Architecture
+> **A curated list of research papers and resources about Pretrained Models (PTMs) for Autonomous Driving.**
+
+This repository tracks the frontier of **PTM4AD**, encompassing Modular Systems (Localization, Perception, Prediction, Planning) and End-to-End Systems. It explores how pretraining strategies (e.g., Contrastive Learning, Masked Autoencoding, LLM/VLM integration) are revolutionizing the AD domain.
+
+*Maintained by the PTM4AD Team.*
+
+👋 **Welcome to contribute!** If you find any related materials helpful or missing, feel free to contact us or make a Pull Request.
+* **Contact:** 286322@whut.edu.cn, zyh_5@whut.edu.cn, ghc0910@whut.edu.cn
+
+## 📝 Citation
+Our survey paper is currently under review. The citation information will be updated here soon.
+
+**The GitHub Pages was updated on Jan 27, 2026.**
+
+## 📖 Table of Contents
+- [Overview](#-overview)
+- [Papers](#-papers)
+  - [Modular System](#modular-system)
+    - [Localization](#localization)
+    - [Perception (Detection & Tracking)](#perception-detection--tracking)
+    - [Trajectory Prediction](#trajectory-prediction)
+    - [Planning & Control](#planning--control)
+  - [End-to-End System](#end-to-end-system)
+- [Datasets](#-datasets)
+- [Simulators](#-simulators)
+
+---
+
+## 🚀 Overview
+
 ![Driving pipeline](Pics/figure_1.jpg)
 
+---
 
-# Open Source
+## 📚 Papers
+
+### Modular System
+
+![AD System](Pics/figure_5.jpg)
+
+#### Localization
 | Name | Link | Code |
-|------|------|------|
+| :--- | :--- | :--- |
 | Fine-grained segmentation networks: Self supervised segmentation for improved long-term visual localization | [link](https://openaccess.thecvf.com/content_ICCV_2019/papers/Larsson_Fine-Grained_Segmentation_Networks_Self-Supervised_Segmentation_for_Improved_Long-Term_Visual_Localization_ICCV_2019_paper.pdf) | [code](https://github.com/maunzzz/fine-grained-segmentation-networks) |
 | Semantics-aware visual localization under challenging perceptual conditions | [link](http://ais.informatik.uni-freiburg.de/publications/papers/naseer17icra.pdf) | none |
 | Semantic pose verification for outdoor visual localization with self-supervised contrastive learning | [link](https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Orhan_Semantic_Pose_Verification_for_Outdoor_Visual_Localization_With_Self-Supervised_Contrastive_CVPRW_2022_paper.pdf) | none |
@@ -17,6 +54,10 @@
 | Global visual localization in lidar-maps through shared 2d-3d embedding space | [link](https://arxiv.org/pdf/1910.04871) | none |
 | SaliencyI2PLoc: Saliency-guided image–point cloud localization using contrastive learning | [link](https://www.google.com/search?q=https://arxiv.org/pdf/2412.15577%3F) | [code](https://github.com/whu-lyh/SaliencyI2PLoc) |
 | Vxp: Voxel-cross-pixel large-scale image-lidar place recognition | [link](https://arxiv.org/pdf/2403.14594) | [code](https://github.com/yunjinli/vxp) |
+
+#### Perception (Detection & Tracking)
+| Name | Link | Code |
+| :--- | :--- | :--- |
 | Location-aware self-supervised transformers for semantic segmentation | [link](https://openaccess.thecvf.com/content/WACV2024/papers/Caron_Location-Aware_Self-Supervised_Transformers_for_Semantic_Segmentation_WACV_2024_paper.pdf) | none |
 | Detco: Unsupervised contrastive learning for object detection | [link](https://openaccess.thecvf.com/content/ICCV2021/papers/Xie_DetCo_Unsupervised_Contrastive_Learning_for_Object_Detection_ICCV_2021_paper.pdf) | [code](https://github.com/open-mmlab/mmselfsup) |
 | Pointcontrast: Unsupervised pre-training for 3d point cloud understanding | [link](https://arxiv.org/pdf/2007.10985) | [code](https://github.com/facebookresearch/PointContrast) |
@@ -51,6 +92,10 @@
 | Dropmae: Masked autoencoders with spatial-attention dropout for tracking tasks | [link](https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_DropMAE_Masked_Autoencoders_With_Spatial-Attention_Dropout_for_Tracking_Tasks_CVPR_2023_paper.pdf) | [code](https://github.com/yjw0224/DropMAE) |
 | Generalized relation modeling for transformer tracking | [link](https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Generalized_Relation_Modeling_for_Transformer_Tracking_CVPR_2023_paper.pdf) | [code](https://github.com/Little-Podi/GRM) |
 | Learning correspondence from the cycle-consistency of time | [link](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Learning_Correspondence_From_the_Cycle-Consistency_of_Time_CVPR_2019_paper.pdf) | [code](https://github.com/xiaolonw/TimeCycle) |
+
+#### Trajectory Prediction
+| Name | Link | Code |
+| :--- | :--- | :--- |
 | Self-supervised representation learning from temporal ordering of automated driving sequences | [link](https://arxiv.org/pdf/2302.09043) | none |
 | Traj-mae: Masked autoencoders for trajectory prediction | [link](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Traj-MAE_Masked_Autoencoders_for_Trajectory_Prediction_ICCV_2023_paper.pdf) | [code](https://jiazewang.com/projects/trajmae.html) |
 | Sept: Towards efficient scene representation learning for motion prediction | [link](https://arxiv.org/pdf/2309.15289) | none |
@@ -69,6 +114,10 @@
 | LG-Traj: LLM Guided Pedestrian Trajectory Prediction | [link](https://openaccess.thecvf.com/content/ICCV2025W/CDEL/papers/Chib_LG-Traj_LLM_Guided_Pedestrian_Trajectory_Prediction_ICCVW_2025_paper.pdf) | none |
 | Traj-llm: A new exploration for empowering trajectory prediction with pre-trained large language models | [link](https://arxiv.org/pdf/2405.04909) | none |
 | Lc-llm: Explainable lane-change intention and trajectory predictions with large language models | [link](https://www.sciencedirect.com/science/article/pii/S2772424725000101?ref=pdf_download&fr=RR-2&rr=9a711b5f9a41af12) | [code](https://github.com/Pemixing/LCLLM) |
+
+#### Planning & Control
+| Name | Link | Code |
+| :--- | :--- | :--- |
 | Gpt-driver: Learning to drive with gpt | [link](https://arxiv.org/pdf/2310.01415) | [code](https://github.com/PointsCoder/GPT-Driver) |
 | Driving with llms: Fusing object-level vector modality for explainable autonomous driving | [link](https://arxiv.org/pdf/2310.01957) | [code](https://github.com/wayveai/Driving-with-LLMs) |
 | Dilu: A knowledge-driven approach to autonomous driving with large language models | [link](https://arxiv.org/pdf/2309.16292) | [code](https://github.com/PJLab-ADG/DiLu) |
@@ -100,6 +149,10 @@
 | Languagempc: Large language models as decision makers for autonomous driving | [link](https://arxiv.org/pdf/2310.03026) | [code](https://github.com/YiqinYang/LanguageMPC) |
 | VLM-MPC: Model Predictive Controller Augmented Vision Language Model for Autonomous Driving | [link](https://arxiv.org/pdf/2408.04821) | none |
 | Llm adaptive pid control for b5g truck platooning systems | [link](https://www.mdpi.com/1424-8220/23/13/5899) | none |
+
+### End-to-End System
+| Name | Link | Code |
+| :--- | :--- | :--- |
 | A versatile and efficient reinforcement learning framework for autonomous driving | [link](https://arxiv.org/pdf/2110.11573) | none |
 | Label efficient visual abstractions for autonomous driving | [link](https://arxiv.org/pdf/2005.10091) | [code](https://github.com/autonomousvision/visual_abstractions) |
 | Segmented encoding for sim2real of rl-based end-to-end autonomous driving | [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9827374) | none |
@@ -147,73 +200,71 @@
 | Vlm-ad: End-to-end autonomous driving through vision-language model supervision | [link](https://arxiv.org/pdf/2412.14446) | none |
 | Vlp: Vision language planning for autonomous driving | [link](https://openaccess.thecvf.com/content/CVPR2024/papers/Pan_VLP_Vision_Language_Planning_for_Autonomous_Driving_CVPR_2024_paper.pdf) | [code](https://github.com/IcebearZhang/VLP) |
 
+---
 
+## 💿 Datasets
 
-
-# Datasets
 ### Perception Datasets
-| Dataset        | Year | Size    | 2D Det | 3D Det | 2D Seg | 3D Seg | Tracking | Lane Det |
-|---------------|------|---------|--------|--------|--------|--------|----------|----------|
-| **Onboard**   |      |         |        |        |        |        |          |          |
-| nuScenes      | 2019 | 40K     | ✓      | ✓      | ✓      | ✓      | ✓        | ✓        |
-| Cityscapes    | 2016 | 25K     | ✓      | ✓      | ✓      |        |          |          |
-| BDD100K       | 2020 | 12M     | ✓      |        | ✓      |        | ✓        | ✓        |
-| Waymo         | 2019 | 230K    | ✓      | ✓      | ✓      |        | ✓        |          |
-| KITTI         | 2012 | 41K     | ✓      | ✓      |        |        |          |          |
-| SYNTHIA       | 2016 | 13.4K   |        |        | ✓      |        |          |          |
-| Apolloscape   | 2018 | 143,906 | ✓      | ✓      | ✓      | ✓      | ✓        |          |
-| SemanticKITTI | 2019 | 43,552  |        |        |        | ✓      |          |          |
-| Virtual KITTI | 2016 | 21,260  | ✓      |        | ✓      |        |          |          |
-| VIPER         | 2017 | 254,064 | ✓      | ✓      | ✓      | ✓      | ✓        |          |
-| GTA5          | 2016 | 24,966  |        |        | ✓      |        |          |          |
-| Argoverse 2   | 2021 | 6M      | ✓      | ✓      |        |        | ✓        |          |
-| Lane Det      | 2017 | 133,235 |        |        |        |        |          | ✓        |
-| SHIFT         | 2022 | 2.5M    | ✓      | ✓      | ✓      |        | ✓        |          |
-| CityPersons   | 2017 | 25K     | ✓      |        | ✓      |        |          |          |
-| A2D2          | 2020 | 41,277  | ✓      | ✓      | ✓      |        |          |          |
-| Foggy Cityscapes | 2018 | 20,550 | ✓    |        | ✓      |        |          |          |
-| CamVid        | 2009 | 701     |        |        | ✓      |        |          |          |
-| IDD           | 2019 | 10,004  |        |        | ✓      |        |          |          |
-| CAOS          | 2022 | 13K     |        |        | ✓      |        |          |          |
-| RADIATE       | 2021 | 44,140  | ✓      |        |        | ✓      |          |          |
-| Virtual KITTI 2 | 2020 | 20,992 | ✓     | ✓      | ✓      |        | ✓        |          |
-| KITTI-360     | 2021 | 150K    | ✓      | ✓      | ✓      | ✓      | ✓        |          |
-| Dr(eye)ve     | 2018 | 555,000 |        |        | ✓      |        |          |          |
-| ACDC          | 2021 | 4,006   |        |        | ✓      |        |          |          |
-| GTSDB         | 2013 | 900     | ✓      |        |        |        |          |          |
-| ONCE          | 2021 | 1M      | ✓      | ✓      |        |        |          |          |
-| Caltech Ped   | 2009 | 250K    | ✓      |        |        |        |          |          |
-| STF           | 2020 | 13,500  | ✓      | ✓      |        |        |          |          |
-| **V2X**       |      |         |        |        |        |        |          |          |
-| TUMTraf       | 2022 | 50,253  | ✓      | ✓      | ✓      |        | ✓        | ✓        |
-| DAIR-V2X      | 2021 | 71,254  | ✓      | ✓      |        |        |          |          |
-| V2XSet        | 2022 | 11,447  | ✓      | ✓      |        |        |          |          |
-| V2V4Real      | 2023 | 40K     | ✓      | ✓      |        |        | ✓        |          |
-| Rope3D        | 2022 | 50K     | ✓      | ✓      |        |        |          |          |
-| V2X-Sim       | 2022 | 10K     | ✓      | ✓      | ✓      | ✓      | ✓        |          |
-| V2VNet        | 2020 | 51.2K   | ✓      |        |        |        |          |          |
-| T&J           | 2019 | 100     | ✓      | ✓      |        |        |          |          |
-| Co-Percep     | 2020 | 10K     | ✓      | ✓      |        |        |          |          |
-| DeepAccident  | 2023 | 285K    |        |        |        |        |          |          |
-| LUMPI         | 2022 | 200K    | ✓      | ✓      | ✓      |        | ✓        |          |
-| **Drone**     |      |         |        |        |        |        |          |          |
-| UAVDT         | 2018 | 80K     | ✓      |        |        |        | ✓        |          |
-| DroneVehicle  | 2021 | 28,439  | ✓      |        |        |        |          |          |
-| **Others**    |      |         |        |        |        |        |          |          |
-| Mapillary Vistas | 2017 | 25K  |        |        | ✓      |        |          |          |
-| TT 100K       | 2016 | 100K    | ✓      |        |        |        |          |          |
-| Pascal3D+     | 2014 | 30,899  | ✓      | ✓      | ✓      |        |          |          |
-| WildDash      | 2018 | 1,800   |        |        | ✓      |        |          |          |
-| TorontoCity   | 2016 | 56K     |        |        | ✓      |        |          |          |
-| DAWN          | 2020 | 4,543   | ✓      |        |        |        |          |          |
-| RAD           | 2019 | 60      |        |        | ✓      |        |          |          |
-| STCrowd       | 2022 | 10,891  | ✓      | ✓      |        |        | ✓        |          |
-
+| Dataset | Year | Size | 2D Det | 3D Det | 2D Seg | 3D Seg | Tracking | Lane Det |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Onboard** | | | | | | | | |
+| nuScenes | 2019 | 40K | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Cityscapes | 2016 | 25K | ✓ | ✓ | ✓ | | | |
+| BDD100K | 2020 | 12M | ✓ | | ✓ | | ✓ | ✓ |
+| Waymo | 2019 | 230K | ✓ | ✓ | ✓ | | ✓ | |
+| KITTI | 2012 | 41K | ✓ | ✓ | | | | |
+| SYNTHIA | 2016 | 13.4K | | | ✓ | | | |
+| Apolloscape | 2018 | 143,906 | ✓ | ✓ | ✓ | ✓ | ✓ | |
+| SemanticKITTI | 2019 | 43,552 | | | | ✓ | | |
+| Virtual KITTI | 2016 | 21,260 | ✓ | | ✓ | | | |
+| VIPER | 2017 | 254,064 | ✓ | ✓ | ✓ | ✓ | ✓ | |
+| GTA5 | 2016 | 24,966 | | | ✓ | | | |
+| Argoverse 2 | 2021 | 6M | ✓ | ✓ | | | ✓ | |
+| Lane Det | 2017 | 133,235 | | | | | | ✓ |
+| SHIFT | 2022 | 2.5M | ✓ | ✓ | ✓ | | ✓ | |
+| CityPersons | 2017 | 25K | ✓ | | ✓ | | | |
+| A2D2 | 2020 | 41,277 | ✓ | ✓ | ✓ | | | |
+| Foggy Cityscapes | 2018 | 20,550 | ✓ | | ✓ | | | |
+| CamVid | 2009 | 701 | | | ✓ | | | |
+| IDD | 2019 | 10,004 | | | ✓ | | | |
+| CAOS | 2022 | 13K | | | ✓ | | | |
+| RADIATE | 2021 | 44,140 | ✓ | | | ✓ | | |
+| Virtual KITTI 2 | 2020 | 20,992 | ✓ | ✓ | ✓ | | ✓ | |
+| KITTI-360 | 2021 | 150K | ✓ | ✓ | ✓ | ✓ | ✓ | |
+| Dr(eye)ve | 2018 | 555,000 | | | ✓ | | | |
+| ACDC | 2021 | 4,006 | | | ✓ | | | |
+| GTSDB | 2013 | 900 | ✓ | | | | | |
+| ONCE | 2021 | 1M | ✓ | ✓ | | | | |
+| Caltech Ped | 2009 | 250K | ✓ | | | | | |
+| STF | 2020 | 13,500 | ✓ | ✓ | | | | |
+| **V2X** | | | | | | | | |
+| TUMTraf | 2022 | 50,253 | ✓ | ✓ | ✓ | | ✓ | ✓ |
+| DAIR-V2X | 2021 | 71,254 | ✓ | ✓ | | | | |
+| V2XSet | 2022 | 11,447 | ✓ | ✓ | | | | |
+| V2V4Real | 2023 | 40K | ✓ | ✓ | | | ✓ | |
+| Rope3D | 2022 | 50K | ✓ | ✓ | | | | |
+| V2X-Sim | 2022 | 10K | ✓ | ✓ | ✓ | ✓ | ✓ | |
+| V2VNet | 2020 | 51.2K | ✓ | | | | | |
+| T&J | 2019 | 100 | ✓ | ✓ | | | | |
+| Co-Percep | 2020 | 10K | ✓ | ✓ | | | | |
+| DeepAccident | 2023 | 285K | | | | | | |
+| LUMPI | 2022 | 200K | ✓ | ✓ | ✓ | | ✓ | |
+| **Drone** | | | | | | | | |
+| UAVDT | 2018 | 80K | ✓ | | | | ✓ | |
+| DroneVehicle | 2021 | 28,439 | ✓ | | | | | |
+| **Others** | | | | | | | | |
+| Mapillary Vistas | 2017 | 25K | | | ✓ | | | |
+| TT 100K | 2016 | 100K | ✓ | | | | | |
+| Pascal3D+ | 2014 | 30,899 | ✓ | ✓ | ✓ | | | |
+| WildDash | 2018 | 1,800 | | | ✓ | | | |
+| TorontoCity | 2016 | 56K | | | ✓ | | | |
+| DAWN | 2020 | 4,543 | ✓ | | | | | |
+| RAD | 2019 | 60 | | | ✓ | | | |
+| STCrowd | 2022 | 10,891 | ✓ | ✓ | | | ✓ | |
 
 ### Prediction, Planning, and Control Datasets
-
 | Dataset | Year | Size | Tasks |
-|---------|------|-------|-------|
+| :--- | :--- | :--- | :--- |
 | Brain4Cars | 2015 | 2M frames | maneuver anticipation |
 | JAAD | 2017 | 75K frames | pedestrian intention |
 | Dr(eye)ve | 2018 | 500K frames | driver attention prediction |
@@ -238,9 +289,8 @@
 | Occ3D-Waymo | 2024 | 200K frames | occupancy prediction |
 
 ### End-to-End Autonomous Driving Datasets
-
 | Dataset | Year | Sensors | Content | Size |
-|---------|------|---------|----------|--------|
+| :--- | :--- | :--- | :--- | :--- |
 | Bench2Drive | 2024 | Camera, LiDAR, Radar, GNSS, IMU | Interactive Scenarios | 2M frames |
 | Udacity | 2016 | Camera, LiDAR, GNSS, Steering, Speed | Obstacles, Traffic, Roads | 5h |
 | Drive360 | 2019 | Camera, GNSS, Steering, Speed, Route | Obstacles, Traffic | 55h |
@@ -278,9 +328,8 @@
 | DriveSeg | 2020 | Camera | Obstacles | 500m |
 
 ### Emerging: Language-Based Autonomous Driving Datasets
-
 | Dataset | Year | Size | Tasks |
-|---------|------|-------|--------|
+| :--- | :--- | :--- | :--- |
 | BDD-X | 2018 | 8.4M | reasoning, planning |
 | Cityscapes-Ref | 2018 | 5K | object referring |
 | TOUCHDOWN | 2019 | 9,326 | reasoning, navigation |
@@ -305,13 +354,15 @@
 | NuScenes-MQA (2024) | 2024 | 1.4M QA | VQA |
 | VLAAD | 2024 | 10,379 | VQA, reasoning |
 
-## Simulators
-| Simulator | Simulator |
-|-----------|-----------|
-| **CARLA** <br> https://carla.org/ | **MetaDrive** <br> https://github.com/metadriverse/metadrive |
-| **AirSim** <br> https://github.com/microsoft/AirSim | **Colosseum** <br> https://github.com/CodexLabsLLC/Colosseum |
-| **AWSIM** <br> https://github.com/tier4/AWSIM | **SUMO** <br> https://eclipse.dev/sumo/ |
-| **Gazebo** <br> https://gazebosim.org/ | **NVIDIA DRIVE Sim** <br> https://www.nvidia.com/en-us/self-driving-cars/simulation/ |
-| **Siemens PreScan** <br> https://plm.sw.siemens.com/en-US/simcenter/autonomous-vehicle-solutions/prescan/ | **VTD (Hexagon)** <br> https://hexagon.com/products/virtual-test-drive |
-| **Apollo Simulation Platform** <br> https://developer.apollo.auto/platform/simulation_cn.html | **Highway-env** <br> https://github.com/Farama-Foundation/HighwayEnv |
+---
 
+## 💻 Simulators
+
+| Simulator | Link | Simulator | Link |
+| :--- | :--- | :--- | :--- |
+| **CARLA** | [Link](https://carla.org/) | **MetaDrive** | [Link](https://github.com/metadriverse/metadrive) |
+| **AirSim** | [Link](https://github.com/microsoft/AirSim) | **Colosseum** | [Link](https://github.com/CodexLabsLLC/Colosseum) |
+| **AWSIM** | [Link](https://github.com/tier4/AWSIM) | **SUMO** | [Link](https://eclipse.dev/sumo/) |
+| **Gazebo** | [Link](https://gazebosim.org/) | **NVIDIA DRIVE Sim** | [Link](https://www.nvidia.com/en-us/self-driving-cars/simulation/) |
+| **Siemens PreScan** | [Link](https://plm.sw.siemens.com/en-US/simcenter/autonomous-vehicle-solutions/prescan/) | **VTD (Hexagon)** | [Link](https://hexagon.com/products/virtual-test-drive) |
+| **Apollo** | [Link](https://developer.apollo.auto/platform/simulation_cn.html) | **Highway-env** | [Link](https://github.com/Farama-Foundation/HighwayEnv) |
