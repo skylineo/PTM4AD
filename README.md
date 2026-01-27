@@ -1,7 +1,7 @@
 # PTM4AD
 
 # Paper Architecture
-![Driving pipeline](Pics/ALL.jpg)
+![Driving pipeline](Pics/figure_1.jpg)
 
 
 # Open Source
