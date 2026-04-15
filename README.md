@@ -20,7 +20,7 @@ Our survey paper is currently under review. The citation information will be upd
 - [Papers](#-papers)
   - [Modular System](#modular-system)
     - [Localization](#localization)
-    - [Perception (Detection & Tracking)](#perception-detection--tracking)
+    - [Detection & Segmentation & Tracking)](#perception-detection--tracking)
     - [Trajectory Prediction](#trajectory-prediction)
     - [Planning & Control](#planning--control)
   - [End-to-End System](#end-to-end-system)
@@ -56,7 +56,7 @@ Our survey paper is currently under review. The citation information will be upd
 | SaliencyI2PLoc: Saliency-guided image–point cloud localization using contrastive learning | [📄](https://arxiv.org/pdf/2412.15577) | [💻](https://github.com/whu-lyh/SaliencyI2PLoc) |
 | Vxp: Voxel-cross-pixel large-scale image-lidar place recognition | [📄](https://arxiv.org/pdf/2403.14594) | [💻](https://github.com/yunjinli/vxp) |
 
-### Perception (Detection & Tracking)
+### Detection & Segmentation & Tracking)
 
 | Name | Link | Code |
 | --- | --- | --- |
