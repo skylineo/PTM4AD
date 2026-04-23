@@ -17,7 +17,8 @@ Our survey paper is currently under review. The citation information will be upd
 
 ## 📖 Table of Contents
 - [Overview](#-overview)
-- [Papers](#-papers)
+- [Taxonomy](#-task-oriented--taxonomy)
+- [Papers](#-Challenges--and--Future--Directions)
   - [Modular System](#modular-system)
     - [Localization](#localization)
     - [Detection & Segmentation & Tracking](#detection--segmentation--tracking)
@@ -37,7 +38,7 @@ Our survey paper is currently under review. The citation information will be upd
 ![AD System](Pics/figure_5.jpg)
 
 ## 🚀 Challenges and Future Directions
-![AD System](Pics/figure_5.jpg)
+![AD System](Pics/Fig_8_re.jpg)
 
 ---
 
