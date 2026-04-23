@@ -5,7 +5,7 @@
 
 This repository tracks the frontier of **PTM4AD**, encompassing Modular Systems (Localization, Perception, Prediction, Planning) and End-to-End Systems. It explores how pretraining strategies (e.g., Contrastive Learning, Masked Autoencoding, LLM/VLM integration) are revolutionizing the AD domain.
 
-*Maintained by the PTM4AD Team.*
+*Maintained by the WHUT-AutoAI PTM4AD Team.*
 
 👋 **Welcome to contribute!** If you find any related materials helpful or missing, feel free to contact us or make a Pull Request.
 * **Contact:** 286322@whut.edu.cn, zyh_5@whut.edu.cn, ghc0910@whut.edu.cn
