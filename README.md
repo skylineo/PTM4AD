@@ -13,7 +13,7 @@ This repository tracks the frontier of **PTM4AD**, encompassing Modular Systems 
 ## 📝 Citation
 Our survey paper is currently under review. The citation information will be updated here soon.
 
-**The GitHub Pages was updated on Jan 27, 2026.**
+**The GitHub Pages was updated on April 23, 2026.**
 
 ## 📖 Table of Contents
 - [Overview](#-overview)
@@ -32,6 +32,11 @@ Our survey paper is currently under review. The citation information will be upd
 ## 🚀 Overview
 
 ![Driving pipeline](Pics/figure_1.jpg)
+
+## 🚀 Task-oriented Taxonomy
+![AD System](Pics/figure_5.jpg)
+
+## 🚀 Challenges and Future Directions
 ![AD System](Pics/figure_5.jpg)
 
 ---
