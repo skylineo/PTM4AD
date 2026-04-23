@@ -32,14 +32,13 @@ Our survey paper is currently under review. The citation information will be upd
 ## 🚀 Overview
 
 ![Driving pipeline](Pics/figure_1.jpg)
+![AD System](Pics/figure_5.jpg)
 
 ---
 
 ## 📚 Papers
 
 ### Modular System
-
-![AD System](Pics/figure_5.jpg)
 
 ### Localization
 
