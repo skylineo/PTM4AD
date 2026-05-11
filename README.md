@@ -13,7 +13,7 @@ This repository tracks the frontier of **PTM4AD**, encompassing Modular Systems 
 ## 📝 Citation
 Our survey paper is currently under review. The citation information will be updated here soon.
 
-**The GitHub Pages was updated on April 23, 2026.**
+**The GitHub Pages was updated on May 1, 2026.**
 
 ## 📖 Table of Contents
 - [Overview](#-overview)
