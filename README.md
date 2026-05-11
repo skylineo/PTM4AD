@@ -36,8 +36,9 @@ Renze Hu, Zhishuai Yin, Linzhen Nie, Yinghan Zhou, Hongchen Guo. *Information Fu
 
 ## 📖 Table of Contents
 - [Overview](#-overview)
-- [Taxonomy](#-task-oriented--taxonomy)
-- [Papers](#-Challenges--and--Future--Directions)
+- [Taxonomy](#-task-oriented-taxonomy)
+- [Challenges](#-challenges-and-future-directions)
+- [Papers](#-papers)
   - [Modular System](#modular-system)
     - [Localization](#localization)
     - [Detection & Segmentation & Tracking](#detection--segmentation--tracking)
