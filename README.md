@@ -1,7 +1,11 @@
+# PTM4AD
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-red)
+[![Paper](https://img.shields.io/badge/Paper-Information%20Fusion-B31B1B.svg)](https://www.sciencedirect.com/science/article/pii/S1566253526003374)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 > **A curated list of research papers and resources about Pretrained Models (PTMs) for Autonomous Driving.**
+
+🔥 **News:** Our survey paper has been accepted by **Information Fusion**! [[Read the Paper]](https://www.sciencedirect.com/science/article/pii/S1566253526003374)
 
 This repository tracks the frontier of **PTM4AD**, encompassing Modular Systems (Localization, Perception, Prediction, Planning) and End-to-End Systems. It explores how pretraining strategies (e.g., Contrastive Learning, Masked Autoencoding, LLM/VLM integration) are revolutionizing the AD domain.
 
@@ -11,9 +15,24 @@ This repository tracks the frontier of **PTM4AD**, encompassing Modular Systems 
 * **Contact:** 286322@whut.edu.cn, zyh_5@whut.edu.cn, ghc0910@whut.edu.cn
 
 ## 📝 Citation
-Our survey paper is currently under review. The citation information will be updated here soon.
+If you find our survey or this repository useful, please consider citing:
 
-**The GitHub Pages was updated on May 1, 2026.**
+**A Comprehensive Survey of Pretrained Models for Autonomous Driving: Methods and Applications**  
+Renze Hu, Zhishuai Yin, Linzhen Nie, Yinghan Zhou, Hongchen Guo. *Information Fusion, 2026*.  
+[[Paper (ScienceDirect)]](https://www.sciencedirect.com/science/article/pii/S1566253526003374)
+
+```bibtex
+@article{hu2026comprehensive,
+  title={A Comprehensive Survey of Pretrained Models for Autonomous Driving: Methods and Applications},
+  author={Hu, Renze and Yin, Zhishuai and Nie, Linzhen and Zhou, Yinghan and Guo, Hongchen},
+  journal={Information Fusion},
+  pages={104457},
+  year={2026},
+  publisher={Elsevier}
+}
+```
+
+**The GitHub Pages was updated on May 11, 2026.**
 
 ## 📖 Table of Contents
 - [Overview](#-overview)
